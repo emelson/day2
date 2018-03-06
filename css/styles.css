@@ -1,11 +1,10 @@
-.container {
-  height: 100%;
+.container-fluid {
   background-color: #FFFD38;
   border: 1px solid #000;
-  padding: 2.5% 1.5%;
+  padding: 25px;
 }
 
-.header  {
+header  {
   background-color: #0B24FB;
   height: 150px;
   border: 1px solid #000;
@@ -17,13 +16,13 @@
   border: 1px solid #000;
 }
 
-.content {
+main {
   height: 200px;
   background-color: #FC0D1B;
   border: 1px solid #000;
 }
 
-.aside {
+aside {
   height: 200px;
   background-color: #2CFFFE;
   border: 1px solid #000;
@@ -40,8 +39,4 @@
   background-color: #000000;
   color: #ffffff;
   border: 1px solid #000;
-}
-
-.text {
-  padding: 5px 0 0 5px;
 }
