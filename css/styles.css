@@ -62,7 +62,7 @@ aside {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 875px) {
   header {
     background-color: orange;
   }
