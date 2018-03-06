@@ -5,8 +5,8 @@
 }
 
 header  {
-  background-color: #0B24FB;
   height: 150px;
+  background-color: #0B24FB;
   border: 1px solid #000;
 }
 
@@ -39,4 +39,46 @@ aside {
   background-color: #000000;
   color: #ffffff;
   border: 1px solid #000;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: red;
+  }
+  .nav {
+    background-color: blue;
+  }
+  main {
+    background-color: green;
+  }
+  aside {
+    background-color: purple;
+  }
+  .promo {
+    background-color: grey;
+  }
+  .footer {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    background-color: orange;
+  }
+  .nav {
+    background-color: grey;
+  }
+  main {
+    background-color: purple;
+  }
+  aside {
+    background-color: green;
+  }
+  .promo {
+    background-color: blue;
+  }
+  .footer {
+    background-color: red;
+  }
 }
